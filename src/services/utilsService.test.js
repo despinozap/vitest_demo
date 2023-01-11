@@ -13,6 +13,17 @@ describe(
         
         expect(result).toBe(55);
       }
-    )
+    );
+
+    it(
+      'sumNumbers returns null when invalid parameter',
+      () => {
+        // Sum is 55
+        const numbers = 'hellostring';
+        const result = sumNumbers(numbers);
+        
+        expect(result).toBe(null);
+      }
+    );
   }
-)
+);
