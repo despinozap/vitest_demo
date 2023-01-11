@@ -25,3 +25,6 @@ dist-ssr
 
 # Npm
 package-lock.json
+
+# Vitest
+coverage
